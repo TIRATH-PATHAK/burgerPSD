@@ -1,0 +1,466 @@
+/* GLOBAL CSS   */
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat,sans-serif;
+    font-size: 17px;
+    /* background-color: red; */
+    color: #3d2514;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    display: block;
+    margin:0 auto;
+}
+
+ul{
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+h1,h2,h3,h4{
+    text-transform: uppercase;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* 1. Header Section CSS */
+
+
+
+.head .logo .right_top{
+
+    margin-top: 5%;
+    margin-left: 56%;
+    width: 44%;    
+
+}
+
+.logo img{
+    float: left;
+    margin-left: 60px;
+}
+
+
+.right_top_txt{
+    display: inline-block;
+    width:32%;
+    
+
+}
+
+
+.right_top_txt p{
+    width: 100%;
+    
+    font-size: 16px;
+}
+
+.right_top_txt img{
+    margin-left: 100%;
+}
+
+.right_top_txt .text{
+   margin-left: 49%;
+    
+}
+
+.right_bottom ul{
+    margin-left: 61%;
+    font-size: 20px;
+}
+
+.right_bottom ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 2%;
+    
+}
+
+
+/* 2. Top Section */
+
+.bg{
+    background-image: url('../assests/images/background.png');
+    padding-top: 1%;
+    
+}
+
+.left .tag{
+    margin-top: 154px;
+    margin-left: 66px;
+    float: left;
+    width: 44%;
+}
+
+.left .tag h4{
+    border: 3px solid #3d2514;
+    width: 75%;
+    text-align: center;
+    padding: 0.5%;
+    border-style: dashed;
+    
+    box-sizing: content-box;
+}
+
+.left .tag .offer_img{
+
+    font-family: Alfa Slab One, sans-serif;
+    width: 76%;
+   
+}
+
+.left .tag .offer_img h1{
+    font-size: 114.3px;
+   
+   
+    
+}
+
+.left .tag .offer_img h3{
+    font-size: 61.75px;
+    
+
+}
+
+
+.right .image img{
+    width: 48%;
+    margin-top: 78px;
+
+    
+}
+
+.right .image1 img{
+    margin-left: 40%;
+    width: 12%;
+    float: left;
+    position: relative;
+    left: 14%;
+}
+
+
+/* 3. Try it Section */
+
+.try{
+    width: 85%;
+    margin-left: 6.5%;
+}
+
+.try .tryon{
+    margin-top: 10%;
+    background-image: url('../assests/images/burger_img.png');
+    background-repeat: no-repeat;
+    margin-left: 1%;
+
+    padding: 1% 10% 30% 1%;
+    width: 48%;
+    float: left;
+    
+}
+
+.try .tryon h3{
+    width: 100%;
+    color: white;
+    
+}
+
+.try .tryon1 h3{
+    width: 100%;
+    color: white;
+}
+    
+.try .tryon1 .top{
+    
+    background-image: url('../assests/images/burger_2.png');
+    background-repeat: no-repeat;
+    padding: 1% 10% 30% 1%;
+    width: 48%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 10%;
+    padding-bottom: 13%;
+    
+}   
+
+
+.try .tryon1 .bottom{
+    width: 48%;
+    background-image: url('../assests/images/burger_3.png');
+    background-repeat: no-repeat;
+    padding: 1% 10% 10% 1%;
+    
+    padding-bottom: 13%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 0%;
+   
+}  
+
+
+#txt button{
+    margin-top: 6%;
+    margin-left: 42%;
+    padding: 1%;
+    background-color: darkorange;
+    
+}
+
+
+/* 3. Choose Section */
+
+.choose .title h3{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 50px;
+    font-family: Alfa Slab One, sans-serif;
+}
+
+.choose .subTitle p{
+    width: 72%;
+    text-align: center;
+    margin-left: 14%;
+}
+
+
+.ord{
+    width: 31.8%;
+   display: inline-block;
+    margin-left: 1.3%;
+    margin-top: 5%;
+}
+
+.ordImg{
+    width: 400px;
+}
+
+.bur2{
+    width: 100%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    margin-top: -6%;
+}
+
+.ord .ordTitle  h2{
+    text-align: center;
+    margin-top: 6%;
+}
+
+.ord .ordsubTitle p{
+    width: 80%;
+    text-align: justify;
+    margin-left: 5%;
+}
+
+.ord .button{
+    margin-left: 30%;
+    
+}
+
+.ord .button button{
+    padding: 2%;
+}
+
+/* 4. Discover Session */
+
+.discover{
+    margin-top: 4%;
+}
+
+.discover .right_side{
+    
+    box-shadow: 1px 1px 10px 1px black;
+    
+    
+}
+
+.left .title{
+    margin-top: 4%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    float: left;
+    width: 46%;
+    text-align: justify;
+    /* box-shadow: 1px 1px 1px 1px black; */
+    
+}
+
+.left, .right_side{
+    margin-left: 8%;
+    margin-right: 7%;
+    /* box-shadow: 1px 1px 1px 1px black; */
+    
+    
+ 
+}
+
+
+
+
+.discover .right_side img{
+    margin-top: 4%;
+    width: 47%;
+    margin-bottom: 3%;
+    margin-right: 1%;
+}
+
+
+.left .title h3{
+    font-family: BebasNeueBold, sans-serif;
+    font-size: 29px;
+}
+
+.left .title h3{
+    font-family: AlfaSlabOne, sans-serif;
+    font-size: 41px;
+}
+
+.left .subTitle p{
+    text-align: justify;
+    width: 90%;
+}
+
+
+/* 5. Reservation Section */
+
+.reservation{
+    margin-top: 10%;
+    width: 100%;
+}
+
+.reservation .title .side1{
+    display: inline-block;    
+    text-align: center;
+    margin-right: 7%;
+}
+
+
+.reservation .title{
+    width: 100%;
+    
+}
+
+.reservation .title h1{
+    font-size: 50px;
+   
+}
+
+.reservation .title h4{
+    font-size: 29px;
+}
+
+.reservation .title .bottom_bottom{
+    display: inline-block;
+   
+    
+   
+}
+
+
+
+.reservation .bottom_bottom input,button{
+    padding: 10%;
+    margin: 6%;
+}
+
+.reservation .bottom_bottom button{
+    width: 120%;
+    color: white;
+    border: 0px;
+    background-color: red;
+    
+}
+
+
+.reservation .title .bottom img{
+    margin-left: 9%;
+}
+
+.side3{
+    float: right;
+    margin-top: 25%;
+}
+
+/* 6. Logo Section */
+
+.footer .logo{
+    background-image: url('../assests/images/bg_burger.png');
+    padding: 2% 1% 10% 1% ;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    
+    
+}
+
+.contact{
+    width: 100%;
+}
+
+.logo .body{
+    margin-top: 10%;
+    color: white;
+    width: 96%;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+.logo .body p{
+    width: 40%;
+    
+}
+
+
+.loc_email{
+    margin-left: 60%;
+    
+}
+
+.loc_email img{
+    margin-right: 10%;
+    
+}
+
+.loc_email img,h4{
+    padding: 1%;
+}
+
+
+/* 7. Footer Section */
+
+.footer{
+    width: 100%;
+}
+
+.footer .icons{
+    margin-top: 14%;
+    margin-left: 87%;
+    
+}
+
+
+.footer .icons img{
+    margin-left: 4%;
+    margin-top: 6%;
+}
+
+#copy{
+    margin-left: 0%;
+    position: absolute;
+    color: white;
+}
